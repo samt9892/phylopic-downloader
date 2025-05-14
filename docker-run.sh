@@ -12,4 +12,4 @@ docker run --rm \
   -v "$PWD/downloads:/app/downloads" \
   -w /app \
   --name phylopic-downloader-run \
-  phylopic-downloader
+  ghcr.io/samt9892/phylopic_downloader:latest
