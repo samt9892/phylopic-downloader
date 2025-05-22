@@ -6,8 +6,7 @@ A simple Dockerized tool to download silhouette animal icons from [PhyloPic](htt
 
 - Download silhouettes from PhyloPic by scientific name
 - Saves images in `.svg` format to a local `downloads/` folder
-- Dockerized for easy execution across platforms (Linux, macOS, Windows)
-- Batch downloading supported via input CSV or list
+- Dockerized for easy execution across platforms (Linux, macOS (ARM), Windows)
 
 ---
 
@@ -16,7 +15,7 @@ A simple Dockerized tool to download silhouette animal icons from [PhyloPic](htt
 ### Prerequisites
 
 - [Docker](https://www.docker.com/) installed on your system
-- Internet connection to pull the image and access the PhyloPic API
+- Internet connection to pull the images and access the PhyloPic API
 
 ### 1. Clone the Repository
 
